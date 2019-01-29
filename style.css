@@ -1,0 +1,631 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+body
+{
+	margin: 0;
+	overflow-x: hidden;
+
+}
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:"Bree Serif",sans-serif;
+}
+
+.oasis
+{   
+	position: relative;
+	top: 420px;
+	width: 100%;
+	height: 150px;
+	background-image: linear-gradient(to right,red,yellow);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icons
+{
+	width: 30%;
+	height: 100px;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons2
+{
+	width: 80px;
+	height: 80px;
+    border: 1px solid black;
+    background: url();
+    border-radius:50%;
+
+
+}
+
+.icons a
+{
+	font-size: 30px;
+	margin: 20px;
+	border: 3px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 15px;
+	color: white;
+	/*font-weight: bold;*/
+}
+
+.icons a:hover
+{
+	border-radius: 3px solid white;
+	background-color: white;
+	color: #ffc728;
+	transform: scaleY(1);
+	transition: 0.2s all ease-in;
+}
+
+.slantedDivA
+{
+	position: relative;
+	width: 100%;
+	height: 450px;
+	background-image:  linear-gradient(to right,red,yellow);
+	clip-path: polygon(0 0,100% 0,100% 100%,0 70%);
+
+
+
+
+
+}
+
+
+
+.slanted
+{
+	position: relative;
+	top: 400px;
+	width: 100%;
+	height: 400px;
+/*	background-color: #ffc728;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: white;
+	border-top: 1px solid lightgrey;
+	/*box-shadow: 0 0 25px lightgrey;*/
+}
+
+.slanted1
+{
+	position: relative;
+	top: 400px;
+	width: 100%;
+	height: 300px;
+	background-image:linear-gradient(to left,red, #ffc728);
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.slant1,.slant2,.slant3
+{
+	width: 400px;
+	height: 400px;
+	
+	display: flex;
+	flex-flow: column;
+	/*background-color: #ffc728;*/
+	justify-content: center;
+	align-items: center;
+}
+
+.ign1
+{
+	width: 250px;
+	height: 250px;
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	background-image: url(thHDA7988D.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 15px grey;
+}
+
+.ign2
+{
+	width: 250px;
+	height: 250px;
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	background-image: url(thAHYRC9RT.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	box-shadow: 0 0 15px grey;
+}
+
+.ign3
+{
+	width: 250px;
+	height: 250px;
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	background-image: url(th90K3Q4AK.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 15px grey;
+}
+
+::-webkit-scrollbar
+{
+	width: 5px;
+	/*background-color: red;*/
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color:  #ffc728;
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-track
+{
+	border-radius: 50px;
+	background:white;
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.slanted2
+{
+	position: relative;
+	top: 400px;
+	width: 100%;
+	height: 400px;
+	background-color: white;
+
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	/*margin: 10px;*/
+
+}
+
+.card1
+{
+	width: 290px;
+	height: 350px;
+	/*border:1px solid black;*/
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-flow: column;
+	margin-top: 10px;
+
+
+	box-shadow: 0 0 25px lightgrey;
+	
+	
+}
+
+.card2
+{
+	width: 300px;
+	height: 350px;
+	/*border:1px solid black;*/
+	border-radius: 20px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+
+	box-shadow: 0 0 25px lightgrey;
+}
+
+.card3
+{
+	width: 300px;
+	height: 350px;
+	/*border:1px solid black;*/
+	border-radius: 20px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+	box-shadow: 0 0 25px lightgrey;
+}
+
+.team1
+{
+	width: 200px;
+	height: 200px;
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	border: 5px solid #ffc728;
+	background-image: url(2bcc50240e556e832fde021700fdca5629d31440[1].jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	box-shadow: 0 0 25px lightgrey;
+}
+
+.box
+{
+/*
+	width: 200px;
+	height: 100px;*/
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	text-align: center;
+}
+
+.team2
+{
+	width: 200px;
+	height: 200px;
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	border: 5px solid #ffc728;
+	background-image: url(th0EQBEAU6.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 25px lightgrey;
+}
+}
+
+.box1
+{
+ /*   width: 200px;
+	height: 100px;*/
+	
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	text-align: center;
+}
+
+.team3
+{
+	width: 200px;
+	height: 200px;
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	background-image: url(11b53c01dafdc4a02340dfa811e78383--the-most-beautiful-women-beautiful-people[1].jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 25px lightgrey;
+	border: 5px solid #ffc728;
+}
+
+.box2
+{
+
+	/*width: 200px;
+	height: 100px;*/
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+
+
+
+.label
+{
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.bold
+{   
+	position: absolute;
+	top: 460px;
+	width: 100%;
+	height: 380px;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.disk
+{
+	width: 40%;
+	height: 180px;
+	/*border: 1px solid black;*/
+}
+
+.risk
+{
+	width: 300px;
+	height: 300px;
+	
+	border: 5px solid #ffc728;
+	border-radius: 50%;
+	background-image: url(download.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	box-shadow: 0 0 25px grey;
+}
+
+.label a
+
+{
+  position: relative;
+  left: -10px;	
+  margin: 15px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.label h4
+
+{
+  position: relative;
+  left: -9px;	
+  
+
+}
+.label h3
+
+{
+  position: relative;
+  left: -9px;	
+  
+
+}
+
+
+.label a:hover
+{
+	color: grey;
+	transition: 0.2s all ease-in;
+}
+
+.logo
+{
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.bogo
+{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	background-image: url(free-delivery-boy-vector.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 700px)
+{  
+   /*.body
+   {
+   	overflow-x: hidden;
+   }*/
+
+   .risk
+   {
+   	display: none;
+   }
+
+   .label a
+   {
+
+     font-size: 10px;
+   }
+   
+   /*.bold
+   {
+
+   	justify-content: flex-end;
+   }*/
+
+   .disk
+   {
+   	width: 300px;
+
+   }
+
+   .disk p
+   {
+   	font-size: 15px;
+   }
+
+   .slanted1
+{
+	position: relative;
+	top: 1200px;
+	width: 100%;
+	height: 300px;
+	background-image: linear-gradient(to left,red,#ffc728);
+	font-size: 12px;
+
+}
+
+.ign2
+{
+	font-size: 10px;
+}
+
+.icons2
+{
+	width: 50px;
+	height: 50px;
+    border: 1px solid black;
+    background: url();
+    border-radius:50%;
+
+
+}
+
+}
+
+@media (max-width: 1200px)
+{
+  .slanted1
+{
+	position: relative;
+	top: 800px;
+	width: 100%;
+	height: 300px;
+	background-color: #ffc728;
+
+}
+
+.slanted2
+{
+	position: relative;
+	top: 800px;
+	
+
+}
+
+.oasis
+{
+	position: relative;
+	top: 820px;
+}
+
+.icons a 
+{
+	font-size: 20px;
+}
+
+}
+
+
+
+
+@media (max-width: 900px)
+{
+  .slanted1
+{
+	position: relative;
+	top: 800px;
+	width: 100%;
+	height: 300px;
+	background-color: #ffc728;
+
+}
+
+.oasis
+	{
+		position: relative;
+		top: 1150px;
+	}
+
+
+}
+
+@media (max-width: 800px)
+{
+  .slanted1
+{
+	position: relative;
+	top: 1200px;
+	width: 100%;
+	height: 300px;
+	background-color: #ffc728;
+
+}
+.slanted2
+{
+	position: relative;
+	top: 1200px;
+	
+
+}
+
+.oasis
+	{
+		position: relative;
+		top: 1550px;
+	}
+
+
+
+}
+
+@media (max-width: 500px)
+
+{
+	.label a
+	{
+		font-size: 7px;
+	}
+
+	.oasis
+	{
+		position: relative;
+		top: 1900px;
+	}
+
+	.icons a
+	{
+		margin: 10px;
+	}
+}
+
+@media (max-width: 600px)
+
+{
+	.oasis
+	{
+		position: relative;
+		top: 1900px;
+	}
+}
